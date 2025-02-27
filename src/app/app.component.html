@@ -1,0 +1,7 @@
+<app-header class="center"> </app-header>
+<main>
+  <app-user-input
+    (calculate)="calculateInvestmentResults($event)"
+  ></app-user-input>
+  <app-investment-results [results]="resultData" />
+</main>
